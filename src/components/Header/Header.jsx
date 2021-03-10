@@ -14,7 +14,9 @@ export const Header = () => (
       <div className={b('tab')}>
         <form className={b('search')}>sss</form>
       </div>
-      <button className={b('cart')} />
+      <div className={b('cart')}>
+        <img src="/images/cart.png" alt="" className={b('cart-img')}/>
+      </div>
 
     </div>
     <div className={b('row')}>

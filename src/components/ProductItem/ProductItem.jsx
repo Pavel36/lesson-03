@@ -10,8 +10,12 @@ export const ProductItem = ({imageSrc, title, description}) => (
     <div className={b('title')}>{title}</div>
     <div className={b('description')}>{description}</div>
     <div className={b('buttons')}>
-      <button className={b('add-to-cart')} />
-      <button className={b('like')} />
+      <div className={b('add-to-cart')}>
+        <img src="/images/cart.png" alt="" className={b('cart-img')}/>
+      </div>
+      <div className={b('add-to-cart')}>
+        <img src="/images/like.png" alt="" className={b('cart-img')}/>
+      </div>
     </div>
 
   </section>

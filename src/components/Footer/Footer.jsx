@@ -8,7 +8,7 @@ export const Footer = () => (
 
   <footer className={b()}>
     <div className={b('row')}>
-      <div className={b('col')}>a</div>
+      <div className={b('col')}>links</div>
       <div className={b('col')}>d</div>
       <div className={b('col')}>w</div>
     </div>
