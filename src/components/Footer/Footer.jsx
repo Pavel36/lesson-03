@@ -7,9 +7,11 @@ const b = block('footer')
 export const Footer = () => (
 
   <footer className={b()}>
-    <span className={b('title')}>
-      Application title
-    </span>
+    <div className={b('row')}>
+      <div className={b('col')}>a</div>
+      <div className={b('col')}>d</div>
+      <div className={b('col')}>w</div>
+    </div>
   </footer>
 
   )
