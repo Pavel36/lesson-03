@@ -1,5 +1,5 @@
 .product-item{
-  color:white;
+
   text-align: center;
   padding: 15px;
 
@@ -14,7 +14,7 @@
     grid-template-columns: repeat(2,1fr);
   }
 
-  &__cart-img {
+  &__cart-img, &__like-img {
     width: 17%;
     text-align: left;
   }
@@ -25,6 +25,13 @@
 
   &__description {
     font-size: 15px;
+
+  }
+
+  &__like-img {
+  }
+
+  &__like-img_active {
 
   }
 }

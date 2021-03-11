@@ -1,10 +1,11 @@
 .footer {
   padding: 10px;
   text-align: center;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #70757a;
 
   &__row {
+    padding: 20px;
     display: grid;
     font-family: arial,sans-serif;
     font-size: 14px;
@@ -12,7 +13,11 @@
 
   }
 
-  &__columns {
+  &__logo {
+    height: 50%;
+  }
+
+  &__col {
 
   }
 }

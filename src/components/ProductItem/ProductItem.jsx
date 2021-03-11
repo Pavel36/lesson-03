@@ -14,7 +14,7 @@ export const ProductItem = ({imageSrc, title, description}) => (
         <img src="/images/cart.png" alt="" className={b('cart-img')}/>
       </div>
       <div className={b('add-to-cart')}>
-        <img src="/images/like.png" alt="" className={b('cart-img')}/>
+        <img src="/images/likeclick.png" alt="" className={b('like-img')}/>
       </div>
     </div>
 

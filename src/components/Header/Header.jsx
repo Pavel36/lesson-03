@@ -7,16 +7,17 @@ const b = block('header')
 export const Header = () => (
   <header className={b()}>
     <div className={b('row')}>
-      <div className={b('tab')}>Home</div>
-      <div className={b('tab')}>All products</div>
-      <div className={b('tab')}>My account</div>
-      <div className={b('tab')}>Contact us</div>
-      <div className={b('tab')}>
-        <form className={b('search')}>sss</form>
+      <a href="#" className={b('tab')}>Home</a>
+      <a href="#" className={b('tab')}>All products</a>
+      <a href="#" className={b('tab')}>My account</a>
+      <a href="#" className={b('tab')}>Contact us</a>
+      <div className={b('tab-search')}>
+        <input className={b('search')} placeholder="search product"/>
+        <img src="/images/search.png" className={b('search-img')} alt=""/>
       </div>
-      <div className={b('cart')}>
+      <a href="#" className={b('cart')}>
         <img src="/images/cart.png" alt="" className={b('cart-img')}/>
-      </div>
+      </a>
 
     </div>
     <div className={b('row')}>

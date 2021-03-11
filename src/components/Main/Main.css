@@ -1,7 +1,8 @@
 .main {
   display: grid;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: #6d3a9b;
+  padding: 0 40px;
 
   &__title {
     padding: 30px;
@@ -12,12 +13,11 @@
   &__pagination {
     margin-left: auto;
     margin-right: auto;
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
   }
 
   &__page {
-    color: white;
     float: left;
     padding: 8px 16px;
     text-decoration: none;

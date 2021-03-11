@@ -1,12 +1,13 @@
 .header {
   display: grid;
-  background-color: black;
-
+  background-color: white;
 
   &__row:nth-child(1) {
+    padding: 0 40px;
     height: 50%;
     display: grid;
     grid-template-columns: repeat(5,2fr) 1fr;
+    align-items: center;
   }
 
   &__row:nth-child(2) {
@@ -21,29 +22,49 @@
   }
 
   &__tab {
-    color: white;
-    padding: 10px;
+    color: #6d3a9b;
     text-align: center;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  &__tab-search {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 10px;
+  }
+
+  &__search-img {
+    height: 20%;
+  }
+
+  &__search-img:hover {
+    transform: scale(1.08);
   }
 
   &__tab:hover {
-    color: #898989;
+    color: #971a8b;
   }
 
   &__search {
-    height: 90%;
+    height: 20%;
     border-radius: 10px;
     background-color: white;
+    text-decoration: none;
   }
 
   &__cart {
     text-align: center;
-    padding: 10px;
+  }
+
+  &__cart:hover {
+    transform: rotate(-10deg);
   }
 
   &__cart-img {
-    width: 35%;
+    width: 30%;
   }
 }
